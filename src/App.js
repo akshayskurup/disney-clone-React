@@ -1,9 +1,13 @@
 import React from "react";
-import NavBar from "./component/NavBar/NavBar";
 import "./App.css";
+import NavBar from "./component/NavBar/NavBar";
+import ImgSlider from "./component/Slider/ImgSlider";
 function App() {
   return (
-    <NavBar/>
+    <div className="Home">
+            <NavBar/>
+            <ImgSlider/>
+        </div>
   );
 }
 
