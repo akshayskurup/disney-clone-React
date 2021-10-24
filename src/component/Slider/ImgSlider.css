@@ -16,4 +16,21 @@ body{
 button{
     z-index: 1;
 }
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{
+    color: transparent;
+    opacity: 10;
+    
+}
+.slick-dots{
+    cursor: none;
+    color: transparent;
+    height: 50px;
+}
+.slick-dots li button
+{
+    margin-left: -5rem;
+}
+
+
 
