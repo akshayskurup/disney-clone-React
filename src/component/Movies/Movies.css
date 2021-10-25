@@ -1,0 +1,37 @@
+body{
+    overflow-x: hidden;
+}
+.Slider-two{    
+    margin-top: 50px;
+    margin-left: 29px;
+    width: 1288px;
+    cursor: pointer;
+}
+
+.poster-images{
+    
+    border-radius: 4px;
+    width: 90%;
+    
+}
+.poster-images:hover{
+    transform: scale(1.2);
+}
+button{
+    z-index: 1;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{
+    color: transparent;
+    opacity: 10;
+    
+}
+.slick-dots{
+    cursor: none;
+    color: transparent;
+    height: 50px;
+}
+.slick-dots li button
+{
+    margin-left: -5rem;
+}
