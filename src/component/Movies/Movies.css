@@ -1,8 +1,16 @@
-body{
-    overflow-x: hidden;
+container{
+    margin-top: 20px;
+}
+.sub-title{
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 21px;
+}
+.sub-title:hover{
+    color: #337ab7;
 }
 .Slider-two{    
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 29px;
     width: 1288px;
     cursor: pointer;
