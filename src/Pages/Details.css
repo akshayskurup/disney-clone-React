@@ -20,18 +20,18 @@ container-two{
 .title-img{
     margin-left: 40px;
     height: 30vh;
-    min-height: 250px;
+    min-height: 235px;
     width: 25vw;
-    min-width: 500px;
+    min-width: 473px;
 }
 .image-title{
     margin-top: -15px;
-    width: 92%;
-    height: 105%;
+    width: 90%;
+    height: 100%;
     object-fit: cover;
 }
 .controls{
-    margin-top: 5px;
+    margin-top: -5px;
     margin-left: 40px;
     display: flex;
 }
@@ -105,4 +105,19 @@ container-two{
     width: 40px;
     border: 2px solid white;
     cursor: pointer;
+}
+.SubTitle{
+    color: rgb(249, 249, 249);
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.description{
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 450;
+    color: rgb(249, 249, 249);
 }

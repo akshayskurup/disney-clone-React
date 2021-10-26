@@ -6,6 +6,7 @@ import ImgSlider from "./component/Slider/ImgSlider";
 import Viewers from "./component/Viewers/Viewers";
 import Movies from "./component/Movies/Movies";
 import Details from "./Pages/Details";
+import Login from "./Pages/Login";
 function App() {
   return (
     <div className='App' >
@@ -15,6 +16,9 @@ function App() {
             <Router>
               <NavBar/> 
               <Switch>
+                <Route path='/login'>
+                  <Login/>
+                </Route>
                 <Route path='/detail'>
                   <Details/>
                 </Route>
